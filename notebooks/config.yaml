@@ -1,0 +1,12 @@
+split: 
+ seed: 42
+ test_size: 0.2
+
+data:
+ raw_path: ../data/raw/raw_data.csv
+ trusted_path: ../data/trusted/trusted_data.csv
+ train_path: ../data/train_data/train_data.csv
+ test_path: ../data/test_data/test_data.csv
+
+image:
+ path: ../images/mind_map.png
